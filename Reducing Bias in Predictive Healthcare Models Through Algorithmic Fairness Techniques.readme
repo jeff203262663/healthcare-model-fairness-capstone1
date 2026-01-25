@@ -1,0 +1,40 @@
+# Reducing Bias in Predictive Healthcare Models Through Algorithmic Fairness Techniques
+
+## Project Overview
+This capstone project focuses on evaluating and mitigating algorithmic bias in predictive healthcare models. Using the CDC Diabetes Health Indicators dataset, the project examines whether common machine learning models produce disparate outcomes across demographic groups and applies fairness-aware techniques to reduce bias while maintaining acceptable predictive performance.
+
+The project aligns with current industry and academic emphasis on ethical AI, transparency, and responsible data science in healthcare analytics.
+
+## Project Objectives
+- Develop baseline predictive models for diabetes risk
+- Evaluate model performance across demographic subgroups
+- Identify potential sources of algorithmic bias
+- Apply fairness-aware mitigation techniques
+- Analyze trade-offs between fairness and predictive accuracy
+
+## Dataset
+This project uses the **CDC Diabetes Health Indicators dataset**, which is publicly available and de-identified.
+
+Data Source:  
+https://www.cdc.gov/brfss/index.html
+
+No protected health information (PHI) is included in this dataset.
+
+## Methodology Summary
+The project follows a structured data science workflow that includes exploratory data analysis, data preprocessing, baseline model development, fairness evaluation, and bias mitigation. Models are evaluated using standard performance metrics as well as group-based fairness metrics such as demographic parity and equal opportunity.
+
+All analysis and code are documented to support transparency and reproducibility.
+
+## Tools and Technologies
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- Jupyter Notebook
+- matplotlib / seaborn
+
+## Ethical Considerations
+Although HIPAA does not apply to this dataset, healthcare-ready practices are followed. Ethical considerations include responsible data handling, fairness evaluation, transparency in modeling decisions, and documentation of limitations and trade-offs.
+
+## Repository Structure
+ 
